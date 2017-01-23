@@ -8,7 +8,7 @@ main:
     url: /categories/news/
   - title: "All Pages"
     url: /page-archive/
-  - title: "All Posts"
+  - title: "All Sample Posts"
     url: /year-archive/
   - title: "External Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
