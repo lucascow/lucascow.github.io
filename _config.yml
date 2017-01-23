@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Lucas"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assetsLucas/mii/redMushrrom.png"
   bio              : "I am an amazing person."
   location         : "Hong Kong"
   email            :
@@ -111,7 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
-  - pagesLu
+  - _pagesLucas
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
