@@ -3,8 +3,25 @@
   float: left !important;
 }
 
-.list__item_img_resize
+.list_item_img_generalizeSize
 {
   width: 125px !important;
-  margin-right: 15px !important;
+}
+
+.table_postWithFeaturePicture
+{
+  border: 0px !important;
+  margin: 0 !important;
+  font-size: 1em !important;
+}
+
+.table_postWithFeaturePicture td
+{
+    padding: 0;
+    vertical-align: top !important;
+}
+
+.table_postWithFeaturePicture td:first-of-type
+{
+    width: 150px !important;
 }
