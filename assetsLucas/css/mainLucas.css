@@ -19,6 +19,7 @@
 
 .table_postWithFeaturePicture .imgCol
 {
+  width: 100px !important;
   vertical-align: middle !important;
 }
 
@@ -29,5 +30,5 @@
 
 .table_postWithFeaturePicture .featureImg
 {
-  width: 100px !important;
+  
 }
