@@ -1,1 +1,14 @@
+.list__item_floatLeft
+{
+  float: left !important;
+}
 
+.list__item_img_floatLeft
+{
+  float: left !important;
+}
+
+.list__item_img_resize
+{
+  width: 125px !important;
+}
