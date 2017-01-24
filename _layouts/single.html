@@ -67,9 +67,12 @@ layout: default
       {% endif %}
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+          {% comment %}<!-- Tricky -->
           {% unless post.path contains 'samplePosts' %}
             {% include archive-single.html type="grid" %}
           {% endunless %}
+          {% endcomment %}<!-- Tricky -->
         {% endfor %}
       </div>
     </div>
