@@ -63,6 +63,7 @@ layout: default
   </article>
 
   {% comment %}
+  <!-- Tricky -->
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       {% if site.data.ui-text[site.locale].related_label %}
@@ -78,6 +79,7 @@ layout: default
       </div>
     </div>
   {% endif %}
+  <!-- Tricky -->
   {% endcomment %}
   
 </div>
