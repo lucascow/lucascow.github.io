@@ -17,12 +17,13 @@
 
 .table_postWithFeaturePicture td
 {
-    border: 0px !important;
-    padding: 0 !important;
-    vertical-align: top !important;
+  border: 0px !important;
+  padding: 0 !important;
+  vertical-align: top !important;
 }
 
 .table_postWithFeaturePicture td:first-of-type
 {
-    width: 150px !important;
+  width: 150px !important;
+  vertical-align: middle !important;
 }
