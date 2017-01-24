@@ -23,7 +23,7 @@
   vertical-align: middle !important;
 }
 
-.table_postWithFeaturePicture td::nth-of-type(2)
+.table_postWithFeaturePicture td:nth-of-type(2)
 {
-  padding-left: 25px
+  padding-left: 25px !important;
 }
