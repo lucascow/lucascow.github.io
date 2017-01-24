@@ -48,11 +48,13 @@
 
 ### Some other note
 
-1. To enable google analytic, simply input the track id in `_config.yml`
-2. To edit the navi bar, go to /_data/navigation.yml
-3. To customerize your header, go to /_includes/head/custom.html
-4. /docs is also a deploy directry, you can take it as a dev environment 
-5. Files in /_includes are mainly reusable code for all pages.
+1. /docs is also a deploy directry, you can take it as a dev environment 
+2. To enable google analytic, simply input the track id in `_config.yml`
+3. To edit the navi bar, go to /_data/navigation.yml
+4. To customerize your header, go to /_includes/head/custom.html
+5. single.html is the default layout of post
+6. Rendering path: pages -> incldues
+
 
 
 
