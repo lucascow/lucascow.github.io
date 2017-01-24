@@ -7,7 +7,7 @@ categories:
   - Technology
 tags:
   - Web
-featurePicture: "https://lucascow.github.io/assetsLucas/mii/redMushroom.png"
+featurePicture: "/assetsLucas/mii/redMushroom.png"
 ---
 
 # Set up a Blog with Github Pages
