@@ -17,7 +17,8 @@
 
 .table_postWithFeaturePicture td
 {
-    padding: 0;
+    border: 0px !important;
+    padding: 0 !important;
     vertical-align: top !important;
 }
 
