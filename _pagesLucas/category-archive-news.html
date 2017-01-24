@@ -5,8 +5,8 @@ title: "News"
 author_profile: true
 ---
 
+{% comment %}
 {% include group-by-array collection=site.posts field="categories" %}
-
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   {% for post in posts %}
@@ -14,4 +14,9 @@ author_profile: true
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
+{% endfor %}
+{% endcomment %}
+
+{% for post in site.categories.News %}
+    {% include archive-single.html %}
 {% endfor %}
