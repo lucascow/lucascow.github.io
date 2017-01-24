@@ -25,14 +25,14 @@
     {% endif %}
     <table class='table_postWithFeaturePicture'>
       <tbody>
-        <td>
+        <td class='imgCol'>
           {% if post.featurePicture %}
-            <img src="{{ post.featurePicture }}" class="">
+            <img src="{{ post.featurePicture }}" class="featureImg">
           {% else %}
 <!--             <img src="https://lucascow.github.io/assetsLucas/mii/logoCMHK.jpg" class=""> -->
           {% endif %}
         </td>
-        <td>
+        <td class='contentCol'>
           <h2 class="archive__item-title" itemprop="headline">
             {% if post.link %}
               <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
