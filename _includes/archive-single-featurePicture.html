@@ -10,7 +10,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item list" style="padding-right:150px;">
+<div class="{{ include.type | default: "list" }}__item list" >
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -25,13 +25,13 @@
     {% endif %}
     <table class='table_postWithFeaturePicture'>
       <tbody>
-        <td class='imgCol'>
-          {% if post.featurePicture %}
+        {% if post.featurePicture %}
+          <td class='imgCol'>
             <img src="{{ post.featurePicture }}" class="featureImg">
-          {% else %}
+          </td>
+        {% else %}
 <!--             <img src="https://lucascow.github.io/assetsLucas/mii/logoCMHK.jpg" class=""> -->
-          {% endif %}
-        </td>
+        {% endif %}
         <td class='contentCol'>
           <h2 class="archive__item-title" itemprop="headline">
             {% if post.link %}
