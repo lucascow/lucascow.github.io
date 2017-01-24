@@ -22,3 +22,8 @@
   width: 150px !important;
   vertical-align: middle !important;
 }
+
+.table_postWithFeaturePicture td::nth-of-type(2)
+{
+  padding-left: 25px
+}
