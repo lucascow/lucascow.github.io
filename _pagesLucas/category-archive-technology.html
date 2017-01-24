@@ -10,7 +10,7 @@ author_profile: true
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   {% for post in posts %}
-    {% if post.categories contains 'technology' %}
+    {% if post.categories contains 'Technology' %}
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
