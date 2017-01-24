@@ -43,9 +43,9 @@ tags:
 
 ### How to write a blog
 
-```
+`
 There is no embedded text editor like WordPress, but you don't need to learn or write the html code.
-``` 
+`
 
 ###### To blog, you need to use `Markdown` syntax, which can be mastered within 5 minutes, here are some resource:
 
