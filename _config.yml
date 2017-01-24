@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Lucas"
-  avatar           : "/assetsLucas/mii/redMushrrom.png"
+  avatar           : "/assetsLucas/mii/logoCMHK.jpg" #"redMushrrom.png"
   bio              : "I am an amazing person."
   location         : "Gloabl Village"
   email            : "https://lucascow.github.io"
