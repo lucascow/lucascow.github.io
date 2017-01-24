@@ -9,6 +9,6 @@ main:
   - title: "All Pages"
     url: /page-archive/
   - title: "All Sample Posts"
-    url: /year-archive/
+    url: /sample-only-year-archive/
   - title: "External Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
