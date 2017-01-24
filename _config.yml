@@ -14,7 +14,7 @@ description              : "An amazing website."
 url                      : "https://lucascow.github.io"
 baseurl                  : #"/"
 repository               : "lucascow/lucascow.github.io"
-teaser                   : "/assetsLucas/mii/redMushrrom.png"
+teaser                   : "/assetsLucas/mii/redMushroom.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
