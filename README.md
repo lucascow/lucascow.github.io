@@ -53,7 +53,7 @@
 3. To edit the navi bar, go to /_data/navigation.yml
 4. To customerize your header, go to /_includes/head/custom.html
 5. single.html is the default layout of post
-6. Rendering mechanism: layout(post*), layout(pages* + include)
+6. Rendering mechanism: post[set layout]->layout or (pages[set layout] + include[liquid template]) -> layout
 
 
 
