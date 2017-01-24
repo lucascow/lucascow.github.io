@@ -17,13 +17,17 @@
   vertical-align: top !important;
 }
 
-.table_postWithFeaturePicture td:first-of-type
+.table_postWithFeaturePicture .imgCol
 {
-  width: 150px !important;
   vertical-align: middle !important;
 }
 
-.table_postWithFeaturePicture td:nth-of-type(2)
+.table_postWithFeaturePicture .contentCol
 {
   padding-left: 25px !important;
+}
+
+.table_postWithFeaturePicture .featureImg
+{
+  width: 100px !important;
 }
