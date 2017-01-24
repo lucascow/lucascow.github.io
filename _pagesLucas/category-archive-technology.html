@@ -5,7 +5,8 @@ title: "Technology"
 author_profile: true
 ---
 
-<!-- {% include group-by-array collection=site.posts field="categories" %}
+<!-- 
+{% include group-by-array collection=site.posts field="categories" %}
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   {% for post in posts %}
@@ -13,8 +14,9 @@ author_profile: true
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
-{% endfor %} -->
+{% endfor %} 
+-->
 
-{% for post in site.posts.Technology %}
+{% for post in site.categories.Technology %}
     {% include archive-single.html %}
 {% endfor %}
