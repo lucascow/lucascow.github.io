@@ -5,18 +5,6 @@ title: "Technology"
 author_profile: true
 ---
 
-<!-- 
-{% include group-by-array collection=site.posts field="categories" %}
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  {% for post in posts %}
-    {% if post.categories contains 'Technology' %}
-      {% include archive-single.html %}
-    {% endif %}
-  {% endfor %}
-{% endfor %} 
--->
-
 {% for post in site.categories.Technology %}
     {% include archive-single.html %}
 {% endfor %}
