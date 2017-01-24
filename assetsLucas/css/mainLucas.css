@@ -11,4 +11,5 @@
 .list__item_img_resize
 {
   width: 125px !important;
+  margin-right: 15px !important;
 }
