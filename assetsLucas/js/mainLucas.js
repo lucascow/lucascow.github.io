@@ -7,6 +7,7 @@ $( document ).ready(function() {
       //$( this ).addClass("links-activeItem");
       //console.log("masthead__menu-item:I am caleld");
       window.activeNaviItem =   $( this );
+      console.log(window.activeNaviItem );
       });
     }
   );
@@ -15,6 +16,6 @@ $( document ).ready(function() {
   {
     $(window.activeNaviItem).addClass("links-activeItem");
   }
-  
-  
+
+
 });
