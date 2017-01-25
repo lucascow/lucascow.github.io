@@ -239,7 +239,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: singleWithNoTitle #single
       author_profile: true
       read_time: false
       comments: # true
