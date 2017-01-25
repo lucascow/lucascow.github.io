@@ -2,13 +2,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Technology"
-    url: /categories/technology/
-  - title: "News"
-    url: /categories/news/
-  - title: "All Pages"
-    url: /page-archive/
-  - title: "All Sample Posts"
-    url: /sample-only-year-archive/
-  - title: "External Guide"
+  - title: "Programming"
+    url: /categories/programming/
+  - title: "Blog"
+    url: /categories/blog/
+ - title: "External Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    
+#  - title: "All Pages"
+#    url: /page-archive/
+#  - title: "All Sample Posts"
+#    url: /sample-only-year-archive/
+
