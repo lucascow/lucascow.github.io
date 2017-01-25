@@ -395,7 +395,8 @@
   }
 
   .archive__item-teaser{
-    width: 75% !important;
+    max-width: 75% !important;
+    max-height: 75% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
