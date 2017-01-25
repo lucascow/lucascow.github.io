@@ -6,7 +6,7 @@ main:
     url: /categories/programming/
   - title: "Blog"
     url: /categories/blog/
- - title: "External Guide"
+  - title: "External Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
     
 #  - title: "All Pages"
