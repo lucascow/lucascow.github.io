@@ -1,4 +1,4 @@
-{% comment %}
+
 
 {% assign words_per_minute = site.words_per_minute | default: 200 %}
 
@@ -16,4 +16,3 @@
   {{ words | divided_by:words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
 {% endif %}
 
-{% endcomment %}
