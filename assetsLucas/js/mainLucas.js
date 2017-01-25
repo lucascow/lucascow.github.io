@@ -6,21 +6,13 @@ function  markNaviItem()
   {
     $(".masthead__menu-item:contains('Home')").addClass("links-activeItem");
   }
-  else if(currentUrl.includes('technology'))
+  else if(currentUrl.includes('programming'))
   {
-    $(".masthead__menu-item:contains('Technology')").addClass("links-activeItem");
+    $(".masthead__menu-item:contains('Programming')").addClass("links-activeItem");
   }
-  else if (currentUrl.includes('news'))
+  else if (currentUrl.includes('blog'))
   {
-    $(".masthead__menu-item:contains('News')").addClass("links-activeItem");
-  }
-  else if (currentUrl.includes('page-archive'))
-  {
-    $(".masthead__menu-item:contains('All Pages')").addClass("links-activeItem");
-  }
-  else if (currentUrl.includes('sample-only-year-archive'))
-  {
-    $(".masthead__menu-item:contains('All Sample Posts')").addClass("links-activeItem");
+    $(".masthead__menu-item:contains('Blog')").addClass("links-activeItem");
   }
   
 }
