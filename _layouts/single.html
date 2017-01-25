@@ -69,7 +69,7 @@ layout: default
         {% for post in site.related_posts limit:4 %}
           {% unless post.path contains 'samplePosts' %}
             {% include archive-single.html type="grid" %}
-          {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </div>
