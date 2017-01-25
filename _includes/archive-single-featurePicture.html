@@ -40,11 +40,14 @@
               <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
             {% endif %}
           </h2>
+          {% comment %}
           {% if post.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
+          {% endcomment %}
           {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-      </td>
+          
+        </td>
       </tbody>
     </table>
   </article>
