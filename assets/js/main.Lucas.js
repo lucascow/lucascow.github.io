@@ -1,4 +1,5 @@
-function updateNav() {
+function updateNav_bk() {
+    
     var e = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
     $vlinks.width() > e ? (breaks.push($vlinks.width()), $vlinks.children().last().prependTo($hlinks), $btn.hasClass("hidden") && $btn.removeClass("hidden")) : (e > breaks[breaks.length - 1] && ($hlinks.children().first().appendTo($vlinks), breaks.pop()), breaks.length < 1 && ($btn.addClass("hidden"), $hlinks.addClass("hidden"))), $btn.attr("count", breaks.length), $vlinks.width() > e && updateNav()
 }! function(e, t) {
