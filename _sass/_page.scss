@@ -395,12 +395,15 @@
   }
 
   .archive__item-teaser{
-    max-width: 75% !important;
-    max-height: 75% !important;
+    max-width: 50% !important;
+    max-height: 50% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-
+  
+  .grid__wrapper{
+    text-align: center !important;
+  }
 
 }
 
