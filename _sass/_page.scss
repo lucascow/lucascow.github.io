@@ -151,6 +151,7 @@
     }
 
     .page__title {
+      color: #9ba1a6;
       font-size: $type-size-2;
 
       @include breakpoint($small) {
