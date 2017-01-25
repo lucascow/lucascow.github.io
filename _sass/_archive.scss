@@ -83,6 +83,8 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 25px;
+  
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
