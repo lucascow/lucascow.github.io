@@ -1,21 +1,16 @@
 $( document ).ready(function() {
 
+ /*
+ //only for ajax navi
  $(".masthead__menu-item").each(
   function(){
     $( this ).on( "click", function() {
-      //$(".masthead__menu-item").removeClass("links-activeItem");
-      //$( this ).addClass("links-activeItem");
-      //console.log("masthead__menu-item:I am caleld");
-      window.activeNaviItem =   $( this );
-      console.log(window.activeNaviItem );
+      $(".masthead__menu-item").removeClass("links-activeItem");
+      $( this ).addClass("links-activeItem");
       });
     }
   );
-
-  if(window.activeNaviItem)
-  {
-    $(window.activeNaviItem).addClass("links-activeItem");
-  }
+  */
 
 
 });
