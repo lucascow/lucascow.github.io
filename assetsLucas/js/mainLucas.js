@@ -6,6 +6,10 @@ function  markNaviItem()
   {
     $(".masthead__menu-item:contains('Home')").addClass("links-activeItem");
   }
+  else if(currentUrl.includes('aboutMe'))
+  {
+    $(".masthead__menu-item:contains('About Me')").addClass("links-activeItem");
+  }
   else if(currentUrl.includes('programming'))
   {
     $(".masthead__menu-item:contains('Programming')").addClass("links-activeItem");
