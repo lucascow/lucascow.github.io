@@ -8,3 +8,9 @@ author_profile: true
 {% for post in site.categories.Technology %}
     {% include archive-single-featurePicture.html %}
 {% endfor %}
+
+<script>
+  $( document ).ready(function() {
+    $(".masthead__menu-item:contains('Technology')").addClass("links-activeItem");
+  }
+</script>
