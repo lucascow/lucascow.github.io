@@ -4468,7 +4468,7 @@ $(window).resize(function() {
 
 function updateNav() {
 
-  console.log("$vlinks.width(): " + $vlinks.width());
+  //console.log("$vlinks.width(): " + $vlinks.width());
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
