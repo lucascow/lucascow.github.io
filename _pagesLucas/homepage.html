@@ -64,7 +64,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 {% assign postNumber = 0 %}
 {% for post in site.categories.Technology %}
   {% if postNumber == 3 %}
-    {% endif %}
+    {% break %}
   {% endif %}
   {% if post.featurePicture %}
   {% increment postNumber %}
