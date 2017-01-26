@@ -262,12 +262,13 @@
 }
 
 .feature__wrapper-extendCol {
-
+  
+  font-size: 1.25em;
+  
   @include breakpoint($small) {
     padding-left: 75px;
     padding-bottom: 1em;
     margin-bottom: 1em;
-    font-size: 1.25em;
    }
    
 }
