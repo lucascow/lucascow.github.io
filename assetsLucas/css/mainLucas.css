@@ -40,36 +40,4 @@
   border-bottom: 1px solid #f2f3f3;
 }
 
-.feature__item-extendCol {
 
-  .archive__item-teaser
-  {
-    width: 100%;
-  }
-
-  @include breakpoint($small) 
-  {
-     width: 25%;
-     .archive__item-teaser 
-     {
-       @include span(5 of 12);
-       width: 75%;
-     }
-   }
-
-}
-
-
-.feature__wrapper-extendCol {
-
-  .a_temp_class_to_avoid_bug: 
-  {
-    
-  }
-  
-  @include breakpoint($small) {
-    padding-left: 75px;
-    margin-bottom: 100px;
-   }
-   
-}
