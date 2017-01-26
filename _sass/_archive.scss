@@ -171,8 +171,11 @@
     .feature__item-teaser {
       max-height: 200px;
       overflow: hidden;
-      width: 75%;
     }
+    
+     .archive__item-teaser {
+       width: 75%;
+     }
   }
 
   &--left {
