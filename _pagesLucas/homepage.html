@@ -41,14 +41,14 @@ excerpt: "This is a simple blog. It is hosted on Github, based on the technologi
           {% endif %}
           <div class="archive__item-body">
             {% if post.title %}
-              <h2 class="archive__item-title">{{ post.title }}</h2>
+              <a href="{{ post.url }}"><h2 class="archive__item-title">{{ post.title }}</h2></a>
             {% endif %}
             {% if post.excerpt %}
               <div class="archive__item-excerpt">
                 {{ post.excerpt | markdownify }}
               </div>
             {% endif %}
-            {% if post.url %}
+            {% if post.url and false %}
               <p><a href="{{ post.url }}" class="btn btn--inverse">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
             {% endif %}
           </div>
@@ -87,14 +87,14 @@ excerpt: "This is a simple blog. It is hosted on Github, based on the technologi
             {% endif %}
             <div class="archive__item-body">
               {% if post.title %}
-                <h2 class="archive__item-title">{{ post.title }}</h2>
+                <a href="{{ post.url }}"><h2 class="archive__item-title">{{ post.title }}</h2></a>
               {% endif %}
               {% if post.excerpt %}
                 <div class="archive__item-excerpt">
                   {{ post.excerpt | markdownify }}
                 </div>
               {% endif %}
-              {% if post.url %}
+              {% if post.url and false %}
                 <p><a href="{{ post.url }}" class="btn btn--inverse">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
               {% endif %}
             </div>
