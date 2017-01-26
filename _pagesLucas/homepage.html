@@ -57,6 +57,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 {% if post.url %}
   <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
 {% endif %}
+<div class="feature__item--{% if forloop.index%2 == 1 %}left{% else %}right{% endif %}">
 {% endcomment %}
 
 {% for post in site.categories.Technology %}
@@ -64,7 +65,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
   
   <div class="feature__wrapper">
       {{ forloop.index%2 }}
-      <div class="feature__item--{% if forloop.index%2 == 1 %}left{% else %}right{% endif %}">
+      <div class="feature__item--{% cycle 'odd', 'even' %}">
         <div class="archive__item">
 
           {% if post.featurePicture %}
