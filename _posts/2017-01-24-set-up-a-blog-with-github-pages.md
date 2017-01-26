@@ -4,7 +4,7 @@ header:
   image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
-  - Technology
+  - Programming
 tags:
   - Web
 featurePicture: "/assetsLucas/mii/redMushroom.png"
