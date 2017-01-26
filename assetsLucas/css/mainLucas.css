@@ -58,3 +58,10 @@
    }
 
 }
+
+.feature__wrapper-extendCol {
+  @include breakpoint($small) {
+    padding-left: 75px;
+    margin-bottom: 100px;
+   }
+}
