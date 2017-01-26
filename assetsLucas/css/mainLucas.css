@@ -28,6 +28,18 @@
   padding-left: 25px !important;
 }
 
+.whatsNew
+{
+  color: #9ba1a6;
+  margin-top: 2em;
+  line-height: 1;
+  margin-bottom: 2em;
+  font-size: 2em;
+  clear: both;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
 .feature__item-extendCol {
 
   .archive__item-teaser
