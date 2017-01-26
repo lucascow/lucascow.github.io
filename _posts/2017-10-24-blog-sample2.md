@@ -7,9 +7,6 @@ tags:
 featurePicture: "https://lucascow.github.io/assetsLucas/mii/redMushroom.png"
 ---
 
-# Set up a Blog with Github Pages
-
-
 ### Why use Github Pages
 
 * Free
