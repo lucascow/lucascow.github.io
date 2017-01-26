@@ -247,5 +247,12 @@
   {
     width: 75%;
   }
+  
+  @include breakpoint($small) {
+     .archive__item-teaser {
+       width: 100%;
+     }
 
+   }
+   
 }
