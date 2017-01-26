@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-2.jpg
   cta_label: "About Me"
-  cta_url: "/"
+  cta_url: "/aboutMe/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "This is a blog of a man. It is hosted on Github, based on the technologies of JekyII, Liquid, Markdown and Minimal Mistakes."
 
@@ -37,28 +37,7 @@ feature_row4:
     btn_class: "btn--inverse"
 ---
 
-<h2>What's new?</h2>
-
-{% comment %}
-{% include feature_row id="intro" type="center" %}
-{% include feature_row %}
-{% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row3" type="right" %}
-{% include feature_row id="feature_row4" type="center" %}
-{% endcomment %}
-
-{% comment %}
-{% if post.path contains 'samplePosts' %}
-{% endif %}
-{% for post in site.posts %}
-{% endfor %}
-<div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-{% if post.url %}
-  <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-{% endif %}
-<div class="feature__item--{% if forloop.index%2 == 1 %}left{% else %}right{% endif %}">
-{% endcomment %}
+<h1>What's new?</h1>
 
 <!-- 3 Column Display  -->
 <div class="feature__wrapper">
