@@ -4,7 +4,7 @@ categories:
   - Blog
 tags:
   - Web
-featurePicture: "https://lucascow.github.io/assetsLucas/mii/redMushroom.png"
+featurePicture: "/assetsLucas/images/test4.jpg"
 ---
 
 ### Why use Github Pages
