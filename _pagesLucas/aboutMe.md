@@ -1,5 +1,5 @@
 ---
-title: "Hello World!"
+title: "About Me"
 layout: single
 permalink: /aboutMe/
 author_profile: true
@@ -8,6 +8,6 @@ type: posts
 excerpt: "This is a simple blog. It is hosted on Github, based on the technologies of JekyII, Liquid, Markdown and Minimal Mistakes."
 ---
 
-#### About Me
+#### Introduction
 
-**I am CMHK Staff.**
+My name is Lucas.
