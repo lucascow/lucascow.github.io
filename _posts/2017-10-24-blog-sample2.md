@@ -1,5 +1,5 @@
 ---
-title: "Web: Sample2"
+title: "Blog: Sample2"
 categories:
   - Blog
 tags:
