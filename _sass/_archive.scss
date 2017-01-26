@@ -88,6 +88,7 @@
   
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
+    font-size: 1.25em;
   }
 
   @include breakpoint($large) {
