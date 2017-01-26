@@ -9,7 +9,7 @@ main:
   - title: "Blog"
     url: /categories/blog/
   - title: "External Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: https://github.com/mmistakes/minimal-mistakes
     
 #  - title: "All Pages"
 #    url: /page-archive/
