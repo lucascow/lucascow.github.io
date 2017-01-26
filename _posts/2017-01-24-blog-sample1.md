@@ -1,7 +1,7 @@
 ---
-title: "Web: Sample1"
+title: "Blog: Sample1"
 categories:
-  - Technology
+  - Blog
 tags:
   - Web
 featurePicture: "https://lucascow.github.io/assetsLucas/mii/redMushroom.png"
