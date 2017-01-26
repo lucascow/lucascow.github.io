@@ -173,14 +173,14 @@
       overflow: hidden;
     }
     
-     .archive__item-teaser {
+    /*.archive__item-teaser {
        width: 75%;
-     }
+     } */
   }
 
   &--left {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -189,6 +189,7 @@
     @include breakpoint($small) {
       .archive__item-teaser {
         @include span(5 of 12);
+        width: 75%;
       }
 
       .archive__item-body {
@@ -201,7 +202,7 @@
 
   &--right {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -212,6 +213,7 @@
 
       .archive__item-teaser {
         @include span(5 of 12 rtl);
+        width: 75%;
       }
 
       .archive__item-body {
@@ -224,7 +226,7 @@
 
   &--center {
     @include full();
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -236,6 +238,7 @@
       .archive__item-teaser {
         margin: 0 auto;
         width: span(5 of 12);
+        width: 75%;
       }
 
       .archive__item-body {
