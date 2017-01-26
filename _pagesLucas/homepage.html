@@ -68,7 +68,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
           {% if post.featurePicture %}
             <div class="archive__item-teaser">
               <img src=
-                {% if f.image_path contains "://" %}
+                {% if post.featurePicture contains "://" %}
                   "{{ post.featurePicture }}"
                 {% else %}
                   "{{ post.featurePicture | absolute_url }}"
