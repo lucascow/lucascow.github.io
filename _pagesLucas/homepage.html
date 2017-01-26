@@ -89,7 +89,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
             {% endif %}
 
             {% if post.url %}
-              <p><a href="{{ post.url }}" class="btn">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+              <p><a href="{{ post.url }}" class="btn btn--inverse">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
             {% endif %}
           </div>
         </div>
