@@ -4,7 +4,7 @@ categories:
   - Blog
 tags:
   - Web
-featurePicture: "/assetsLucas/images/test4.jpg"
+featurePicture: "/assetsLucas/images/test2.jpg"
 ---
 
 ### Why use Github Pages
