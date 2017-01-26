@@ -63,15 +63,15 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 
 {% assign postNumber = 0 %}
 {% for post in site.categories.Technology %}
-  
-  {{ postNumber }}
+
   {% if postNumber == 3 %}
+    {{ postNumber }}
     {% break %}
   {% endif %}
  
   {% if post.featurePicture %}
   
-    {% capture postNumber %}{% increment postNumber %}{% endcapture %}
+    {% assign postNumber = postNumber | plus: 1 %}
   
     <div class="feature__wrapper">
         <div class="feature__item--{% cycle 'left', 'right' %}">
