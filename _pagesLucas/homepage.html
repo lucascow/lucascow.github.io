@@ -70,7 +70,8 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
   
   {% if post.featurePicture %}
   
-    {% increment postNumber %}
+    {% capture postNumber %}{% increment postNumber %}{% endcapture %}
+  
     <div class="feature__wrapper">
         <div class="feature__item--{% cycle 'left', 'right' %}">
           <div class="archive__item">
