@@ -49,6 +49,7 @@ feature_row4:
 {% if post.path contains 'samplePosts' %}
 {% endif %}
 {% for post in site.posts %}
+{% endfor %}
 <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 {% if post.url %}
