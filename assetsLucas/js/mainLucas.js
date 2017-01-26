@@ -1,6 +1,7 @@
 function  markNaviItem()
 {
   
+  $(".masthead__menu-item").removeClass("links-activeItem");
   var currentUrl = $(location).attr('href');
   if (currentUrl === 'https://lucascow.github.io/' )
   {
