@@ -161,8 +161,9 @@
 
 .feature__item {
   margin-bottom: 2em;
-  font-size: 1.25rem;
-
+  /*font-size: 1.25rem; */
+  font-size: 0.5em;
+  
   @include breakpoint($small) {
     margin-bottom: 0;
     @include gallery(4 of 12);
