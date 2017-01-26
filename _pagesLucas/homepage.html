@@ -65,7 +65,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
   
   <div class="feature__wrapper">
       {{ forloop.index%2 }}
-      <div class="feature__item--{% cycle 'odd', 'even' %}">
+      <div class="feature__item--{% cycle 'left', 'right' %}">
         <div class="archive__item">
 
           {% if post.featurePicture %}
