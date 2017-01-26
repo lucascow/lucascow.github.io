@@ -60,7 +60,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 <div class="feature__item--{% if forloop.index%2 == 1 %}left{% else %}right{% endif %}">
 {% endcomment %}
 
-<!-- 3 Child -->
+<!-- 3 Column Display  -->
 <div class="feature__wrapper">
   {% assign postNumber = 0 %}
   {% for post in site.categories.Technology %}
@@ -102,6 +102,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
     {% endif %}
   {% endfor %}
 </div>
+<!-- 3 Column Display  -->
   
 <!-- Left Right Left -->
 {% assign postNumber = 0 %}
@@ -147,3 +148,5 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
     </div>
   {% endif %}
 {% endfor %}
+<!-- Left Right Left -->
+  
