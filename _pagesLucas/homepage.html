@@ -64,7 +64,7 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
   <div class="feature__wrapper">
       {{ forloop.index%2 }}
       <div class="feature__item--
-        {% forloop.index%2 == 1 %}
+        {% if forloop.index%2 == 1 %}
           left
         {% else %}
           right
