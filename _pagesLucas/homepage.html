@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-2.jpg
-  cta_label: "I am Button"
+  cta_label: "About"
   cta_url: "/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "This is a blog of a man. It is hosted on Github, based on the technologies of JekyII, Liquid, Markdown and Minimal Mistakes."
@@ -60,7 +60,50 @@ alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 <div class="feature__item--{% if forloop.index%2 == 1 %}left{% else %}right{% endif %}">
 {% endcomment %}
 
+<!-- 3 Child -->
+<div class="feature__wrapper">
+  {% assign postNumber = 0 %}
+  {% for post in site.categories.Technology %}
 
+    {% if postNumber == 3 %}
+      {% break %}
+    {% endif %}
+
+    {% if post.featurePicture %}
+      {% assign postNumber = postNumber | plus: 1 %}
+      <div class="feature__item">
+        <div class="archive__item">
+          {% if post.featurePicture %}
+            <div class="archive__item-teaser">
+              <img src=
+                {% if post.featurePicture contains "://" %}
+                  "{{ post.featurePicture }}"
+                {% else %}
+                  "{{ post.featurePicture | absolute_url }}"
+                {% endif %}
+              >
+            </div>
+          {% endif %}
+          <div class="archive__item-body">
+            {% if post.title %}
+              <h2 class="archive__item-title">{{ post.title }}</h2>
+            {% endif %}
+            {% if post.excerpt %}
+              <div class="archive__item-excerpt">
+                {{ post.excerpt | markdownify }}
+              </div>
+            {% endif %}
+            {% if post.url %}
+              <p><a href="{{ post.url }}" class="btn btn--inverse">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+  
+<!-- Left Right Left -->
 {% assign postNumber = 0 %}
 {% for post in site.categories.Technology %}
 
