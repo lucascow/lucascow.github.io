@@ -156,7 +156,8 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid #dee0e1; //1px solid $border-color;
+  
 }
 
 .feature__item {
@@ -272,7 +273,7 @@
 
 .feature__wrapper-extendCol {
   
-  font-size: 2.25em;
+  font-size: 2em;
   
   @include breakpoint($small) {
     padding-left: 75px;
