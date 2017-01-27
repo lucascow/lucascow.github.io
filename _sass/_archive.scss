@@ -280,8 +280,10 @@
 .feature__wrapper-extendCol {
   
   font-size: 2em;
+  border-bottom: 0;
   
   @include breakpoint($small) {
+    border-bottom: 2px solid #dee0e1;
     padding-left: 75px;
     padding-bottom: 1em;
     margin-bottom: 1em;
