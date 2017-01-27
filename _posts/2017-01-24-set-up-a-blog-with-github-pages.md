@@ -8,6 +8,7 @@ categories:
 tags:
   - Web
 featurePicture: "/assetsLucas/mii/redMushroom.png"
+excerpt: Why use Github Pages? How does it work? How to start?  How to write a blog? Some other note?
 ---
 # Set up a Blog with Github Pages
 
