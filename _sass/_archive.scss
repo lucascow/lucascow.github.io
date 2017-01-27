@@ -260,7 +260,10 @@
 
 
 .feature__item-extendCol {
-
+  
+  border-bottom: 2px solid #dee0e1;
+  padding-bottom: 2em;
+  
   .archive__item-teaser
   {
     width: 100%;
@@ -268,6 +271,9 @@
   
   @include breakpoint($small) {
      width: 25%;
+    
+    border-bottom: 0;
+    padding-bottom: 0;
     
      .archive__item-teaser {
        width: 75%;
