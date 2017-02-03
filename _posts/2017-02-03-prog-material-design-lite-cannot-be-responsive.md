@@ -4,7 +4,7 @@ categories:
   - Programming
 tags:
   - Web
-featurePicture: "/assetsLucas/images/2017-02-03-material-design-lite-cannot-be-responsive-featurePicture.png"
+featurePicture: "/assetsLucas/images/2017-02-03-prog-material-design-lite-cannot-be-responsive-featurePicture.png"
 excerpt:
 ---
 
@@ -18,5 +18,5 @@ If your Material Design Lite (MDL) is not responsive in mobile device, you can s
 ```
 
 >You can found the same code in the Material Design Lite (MDL) official site:
->![Image](/assetsLucas/images/2017-02-03-material-design-lite-cannot-be-responsive-content-1.png)
+>![Image](/assetsLucas/images/2017-02-03-prog-material-design-lite-cannot-be-responsive-content-1.png)
 
