@@ -4,7 +4,7 @@ categories:
   - Blog
 tags:
   - Web
-featurePicture: "/assetsLucas/images/teaserRobotFileNotFound.jpg"
+#featurePicture: "/assetsLucas/images/teaserRobotFileNotFound.jpg"
 excerpt: I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. 
 ---
 
