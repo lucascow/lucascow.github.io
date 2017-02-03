@@ -40,8 +40,8 @@
 ###### To blog, you need to use `Markdown` syntax, which can be mastered within 5 minutes, here are some resource:
 
 * [A simple guide by Github](https://guides.github.com/features/mastering-markdown/)
-* [A simple cheatsheet table](http://commonmark.org/help/)
 * [Master Google](https://www.google.com)
+* [A simple cheatsheet table](http://commonmark.org/help/)
 
 ###### Once You have a basic idea, you can play an write in the online editor [**Github Markdown Editor**](https://jbt.github.io/markdown-editor).
 
