@@ -5,7 +5,7 @@ categories:
 tags:
   - Web
 featurePicture: "/assetsLucas/images/2017-02-03-prog-material-design-lite-cannot-be-responsive-featurePicture.png"
-excerpt:
+excerpt: If your Material Design Lite (MDL) is not responsive in mobile device...
 ---
 
 Material Design Lite (MDL) is a clear, simple and lightweight layout. You can create web app or mobile app quickly with it.
