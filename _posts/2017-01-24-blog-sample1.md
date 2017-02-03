@@ -5,7 +5,7 @@ categories:
 tags:
   - Web
 featurePicture: "/assetsLucas/images/teaserRobotFileNotFound.jpg"
-excerpt: I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. I am excerpt. 
+excerpt: I am excerpt. I am excerpt. I am excerpt.
 ---
 
 ### Why use Github Pages
