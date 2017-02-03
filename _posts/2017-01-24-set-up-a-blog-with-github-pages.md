@@ -7,7 +7,7 @@ categories:
   - Programming
 tags:
   - Web
-featurePicture: "/assetsLucas/mii/redMushroom.png"
+featurePicture: "/assetsLucas/images/2017-01-24-set-up-a-blog-with-github-pages-featurePicture.jpg"
 excerpt: Why use Github Pages? How does it work? How to start?  How to write a blog? Some other note?
 ---
 # Set up a Blog with Github Pages
