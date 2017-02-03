@@ -4,7 +4,7 @@ categories:
   - Programming
 tags:
   - Web
-featurePicture: "/assetsLucas/mii/redMushroom.png"
+featurePicture: "/assetsLucas/images/material-design-lite-cannot-be-responsive-featurePicture.png"
 excerpt:
 ---
 
